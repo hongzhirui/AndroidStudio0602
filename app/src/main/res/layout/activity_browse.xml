@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hzr.androidstudio0602.BrowseActivity">
+
+    <TextView
+        android:id="@+id/id_textView"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:lineSpacingExtra="24sp"
+        android:padding="50px"
+        android:text="百度"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/id_button"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:onClick="goBack"
+        android:text="返回"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="38dp" />
+</LinearLayout>
